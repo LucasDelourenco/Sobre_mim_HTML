@@ -1,0 +1,171 @@
+/*
+:root{
+    --tamanho_tela: 1500
+} */
+
+html{background-color: rgb(31, 33, 34);}
+
+input, textarea{
+    color:whitesmoke;
+    font-size: 0.9rem;
+}
+
+
+
+.conteiner{
+    border: 1px;
+    justify-content: center;
+    display: flex;
+    width:100%;
+    height: 1400px;
+    padding-top: 10px;
+
+    /* temporário para dessenvolvimento 
+    border: 2px dashed red;*/
+    
+}
+
+.subconteiner{
+    background-color: rgb(39, 40, 41);
+    height: 1380px ;
+    width: 750px;
+    justify-content: center;
+    border:2px solid rgb(27, 27, 27)
+    
+
+    /* temporário para dessenvolvimento 
+    border: 2px dashed red;*/
+}
+
+.texto{
+    color: aliceblue;
+    font-size:large;
+    font-weight: 1;
+    font: Inter;
+
+}
+
+
+
+#barrasuperior{
+    display: flex;
+    justify-content: space-evenly; /*justifica horizontal*/
+    align-items: center; /*justifica vertical*/
+    height: 35px;
+    width: 400px;
+    margin-left: 165px;
+    
+
+
+
+
+    /* temporário para dessenvolvimento 
+    border: 2px dashed red;*/
+}
+
+#barrasuperior a:hover,.icones img:hover, button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+#imagem{
+    text-align: center;
+    padding-top: 80px;
+}
+
+#imagem .texto{
+    margin: 5px;
+}
+
+#borda_imagem{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to left bottom, darkblue, rgb(180, 42, 214)) border-box;
+    border-radius: 50%;
+    border: 6px solid transparent;
+    
+}
+
+
+
+#sobre{
+    padding-top: 70px;
+}
+
+#sobre label{
+    font-size: 20;
+    text-decoration: underline;
+}
+
+#sobre p{
+    font-size: medium;
+    padding-left: 10px;
+}
+
+
+#falecmg{
+    padding-left: 10px;
+}
+
+#falecmg label{
+    font-size: 14;
+}
+
+#falecmg button{
+    width: 110px;
+    height: 40px;
+    background-color: rgb(38, 216, 107);
+    color: white; /* cor do texto */
+    font-size: medium;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+
+#falecmg input{
+    width: 300px;
+    height: 50px;
+    background: rgb(39, 40, 41);
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+#falecmg textarea{
+    width: 500px;
+    height: 150px;
+    background: rgb(39, 40, 41);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+#falecmg input:focus, #falecmg textarea:focus{
+    background: rgb(63, 65, 66);
+}
+
+.subtitulo{
+    padding-left: 10px;
+    padding-top:70px;
+}
+
+.subtitulo p{
+    margin-top:10px;
+}
+
+.subtitulo label{
+    font-size: 20;
+    text-decoration: underline;
+}
+
+.subtitulo img{
+    margin-top:15px;
+    width: 64px;
+    height: 64px;
+    padding-right: 6px;
+}
+
